@@ -142,53 +142,53 @@ int main()
 
 
     //Задание 3
-    const int nmatr = 100;
-    const int mmatr = 100;
-    int mat[nmatr][mmatr];
-    int mas[nmatr][1];
-
-    int n, m;
-    std::cin >> n >> m;
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < m; j++)
-        {
-            std::cin >> mat[i][j];
-        }
-    }
-    int counteroper = 0;
-    int maxcounter = 0;
-    int counter = 1;
-    int max = INT_MIN;
-    short nomer = 0;
-
-    for (int j = 0; j < m; j++)
-    {
-        counter = 1;
-        for (int i = 0; i < n; i++)
-        {
-            counter *= mat[i][j];
-        }
-        if (counter > max) {
-            max = counter;
-            nomer = j;
-        }
-        
-    }
-
-    for (int i = 0; i < n; i++)
-    {
-        mat[i][nomer] -= 3;
-    }
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < m; j++)
-        {
-            std::cout << mat[i][j] << " ";
-        }
-        std::cout << std::endl;
-    }
+    //const int nmatr = 100;
+    //const int mmatr = 100;
+    //int mat[nmatr][mmatr];
+    //int mas[nmatr][1];
+//
+    //int n, m;
+    //std::cin >> n >> m;
+//
+    //for (int i = 0; i < n; i++)
+    //{
+        //for (int j = 0; j < m; j++)
+        //{
+            //std::cin >> mat[i][j];
+        //}
+    //}
+    //int counteroper = 0;
+    //int maxcounter = 0;
+    //int counter = 1;
+    //int max = INT_MIN;
+    //short nomer = 0;
+//
+    //for (int j = 0; j < m; j++)
+    //{
+        //counter = 1;
+        //for (int i = 0; i < n; i++)
+        //{
+            //counter *= mat[i][j];
+        //}
+        //if (counter > max) {
+            //max = counter;
+            //nomer = j;
+        //}
+        //
+    //}
+//
+    //for (int i = 0; i < n; i++)
+    //{
+        //mat[i][nomer] -= 3;
+    //}
+//
+    //for (int i = 0; i < n; i++)
+    //{
+        //for (int j = 0; j < m; j++)
+        //{
+            //std::cout << mat[i][j] << " ";
+        //}
+        //std::cout << std::endl;
+    //}
 }
 
