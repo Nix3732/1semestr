@@ -62,13 +62,13 @@ int main()
     //int counter = 0;
     //int summas[n];
 
-    //while (i < n) //Вводим последовательность
+    //while (i < n) ////Вводим последовательность
     //{
     //    std::cin >> mas[i];
     //    i++;
     //}
 
-    //for (int a = 0; a < n; a++)
+    //for (int a = 0; a < n; a++) ////Для каждого числа считаем сумму цифр и записываем в массив summas
     //{
     //    int sum = 0;
     //    int b = mas[a];
@@ -88,7 +88,7 @@ int main()
     //{
     //    for (int y = x + 1; y < n; y++)
     //    {
-    //        if (summas[x] > summas[y])
+    //        if (summas[x] > summas[y]) ////Первая условие сортировки
     //        {
     //            int tmp = summas[x];
     //            summas[x] = summas[y];
@@ -98,7 +98,7 @@ int main()
     //            mas[x] = mas[y];
     //            mas[y] = tmp1;
     //        }
-    //        else if (summas[x] == summas[y])
+    //        else if (summas[x] == summas[y]) ////Второе условние сортировки
     //        {
     //            int pr1 = mas[x];
     //            int pr2 = mas[y];
@@ -106,7 +106,7 @@ int main()
     //            int num1 = 0;
     //            int num2 = 0;
 
-    //            while (pr1 != 0)
+    //            while (pr1 != 0) ////Нахождение максимальной цифры в числе
     //            {
     //                num1 = std::max(num1, pr1 % 10);
     //                pr1 /= 10;
@@ -116,13 +116,13 @@ int main()
     //                num2 = std::max(num2, pr2 % 10);
     //                pr2 /= 10;
     //            }
-    //            if (pr1 < pr2)
+    //            if (pr1 < pr2) ////Сортировка по этой цифре
     //            {
     //                int tmp1 = mas[x];
     //                mas[x] = mas[y];
     //                mas[y] = tmp1;
     //            }
-    //            else if (pr1 == pr2)
+    //            else if (pr1 == pr2) ////Третье условие сортировки
     //            {
     //                if (mas[y] <= mas[x])
     //                {
@@ -134,7 +134,7 @@ int main()
     //        }
     //    }
     //}
-    //for (i = 0; i < n; ++i)
+    //for (i = 0; i < n; ++i) ////Вывод массива
     //    {
     //        std::cout << mas[i] << " ";
     //    }
