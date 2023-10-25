@@ -93,7 +93,7 @@ int main()
     setlocale(LC_ALL, "Russian");
 
     std::ifstream str("input.txt");
-    std::string gluxie = "пфкшстхцчщ";
+    std::string gluxie = "пфкшстхцчщПФКШСТХЦЧЩ";
     std::string glass = "иаеёоуыэюяИАЕЁОУЫЭЮЯ";
     std::string mas[1000];
     std::string finalmas[1000];
